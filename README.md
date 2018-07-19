@@ -1,2 +1,3 @@
 # slack-bot
-dead simple slackbot in Python 3.7
+A dead simple slackbot in Python 3.7
+

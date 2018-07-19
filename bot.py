@@ -6,7 +6,7 @@ from slackclient import SlackClient
 from data import Bot, Command, Event
 
 
-class SlackBot(SlackClient):
+class PyBot(SlackClient):
 
     def __init__(self, token: str, bot: Bot, db: StrictRedis) -> None:
         super().__init__(token)

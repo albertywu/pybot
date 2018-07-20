@@ -3,7 +3,7 @@ from typing import Callable, Dict, List
 from redis import StrictRedis
 import time
 from slackclient import SlackClient
-from data import Bot, Command, Event
+from .data import Bot, Command, Event
 
 
 class PyBot(SlackClient):
